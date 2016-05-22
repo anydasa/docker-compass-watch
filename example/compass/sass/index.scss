@@ -1,0 +1,27 @@
+@import "compass";
+
+@import "icons/*.png";
+
+@include all-icons-sprites;
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+}
+
+.social {
+  @extend .icon;
+
+  &.fb {
+    @include icons-sprite(facebook);
+  }
+  &.twitter {
+    @include icons-sprite(twitter);
+  }
+  &.youtube {
+    @include icons-sprite(youtube);
+  }
+
+}

@@ -1,5 +1,5 @@
 FROM ruby
-MAINTAINER Artem Sykchin
+MAINTAINER Artem Sykchin anydasa@gmail.com
 
 RUN gem install listen
 RUN gem install compass
